@@ -11,6 +11,13 @@ sudo apt-get install python3-flask
 python3 hello.py eth0 5555
 ```
 
+## use virtualenv
+virtualenv helloflask
+source helloflask/bin/activate
+cd helloflask
+pip3 freeze > requirements.txt
+pip3 install -r requirements.txt
+
 ## test
 
 ```sh
